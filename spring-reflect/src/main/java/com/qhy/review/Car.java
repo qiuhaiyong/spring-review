@@ -11,7 +11,7 @@ public class Car {
     public Car() {
     }
 
-    public Car(String name, int age, String color) {
+    private Car(String name, int age, String color) {
         this.name = name;
         this.age = age;
         this.color = color;
@@ -45,5 +45,14 @@ public class Car {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", color='" + color + '\'' +
+                '}';
     }
 }

@@ -12,6 +12,8 @@
         <module>spring-first</module>
         <module>spirng-ioc-xml</module>
         <module>spring-reflect</module>
+        <module>spring-ioc-self</module>
+        <module>spring-aop</module>
     </modules>
 
     <properties>
